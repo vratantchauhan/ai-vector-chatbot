@@ -1,0 +1,9 @@
+Java is a backend programming language widely used for enterprise applications.
+
+FAISS is a vector database library used for similarity search.
+
+Embeddings convert text into numerical vectors that capture meaning.
+
+A chatbot can use vector search to retrieve relevant context before answering.
+
+Order Management Systems manage customer orders, pricing, fulfillment, and tracking.
