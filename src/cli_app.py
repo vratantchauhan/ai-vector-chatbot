@@ -1,5 +1,7 @@
+from src.ingest import ensure_vector_store
 from src.rag_pipeline import RAGPipeline
 
+ensure_vector_store()
 rag = RAGPipeline()
 
 print("AI Vector Chatbot started.")

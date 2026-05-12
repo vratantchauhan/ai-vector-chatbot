@@ -1,5 +1,6 @@
 import streamlit as st
 
+from src.ingest import ensure_vector_store
 from src.rag_pipeline import RAGPipeline
 
 st.set_page_config(
@@ -14,6 +15,7 @@ st.write(
     "FAISS vector search and OpenAI."
 )
 
+ensure_vector_store()
 rag = RAGPipeline()
 
 query = st.text_input("Ask a question:")
