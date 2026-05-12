@@ -1,0 +1,5 @@
+Order Management Systems process customer orders in real time.
+
+OMS platforms handle pricing, inventory, fulfillment, and tracking.
+
+Streaming architectures improve scalability in OMS systems.

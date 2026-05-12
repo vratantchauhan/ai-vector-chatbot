@@ -1,0 +1,5 @@
+Retrieval-Augmented Generation combines vector search with LLMs.
+
+Embeddings convert text into semantic vectors.
+
+FAISS performs efficient similarity search.

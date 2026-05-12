@@ -1,0 +1,5 @@
+Java is widely used for enterprise backend systems.
+
+Spring Boot simplifies microservice development.
+
+REST APIs are commonly implemented using Spring MVC.
