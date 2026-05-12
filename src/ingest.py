@@ -8,13 +8,13 @@ from pathlib import Path
 from pypdf import PdfReader
 from docx import Document
 
-_PROJECT_ROOT = Path(__file__).resolve().parent.parent
-DATA_DIR = _PROJECT_ROOT / "data"
-VECTOR_STORE_DIR = _PROJECT_ROOT / "vector_store"
+
+from src.config.settings import DATA_DIR, VECTOR_STORE_DIR, OPENAI_API_KEY
+
 
 load_dotenv()
 
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+client = OpenAI(api_key=OPENAI_API_KEY)
 
 def read_text_file(file_path):
     with open(file_path, "r", encoding="utf-8") as file:
