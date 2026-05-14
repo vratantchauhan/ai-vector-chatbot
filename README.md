@@ -1,4 +1,4 @@
-# AI Vector Chatbot
+# AI RAG Chatbot Using Facebooks Vector Similarity Search and OpenAI's Chat Completions API
 
 RAG chatbot: documents under `data/` are chunked and embedded with OpenAI, indexed with FAISS, then queried via a CLI or Streamlit UI.
 
