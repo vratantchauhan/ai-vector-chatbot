@@ -21,3 +21,9 @@ CHUNK_SIZE = int(os.getenv("CHUNK_SIZE", "1000"))
 CHUNK_OVERLAP = int(os.getenv("CHUNK_OVERLAP", "150"))
 
 TOP_K = int(os.getenv("TOP_K", "3"))
+
+_default_sqlite_path = (PROJECT_ROOT / "app.db").resolve()
+DATABASE_URL = os.getenv(
+    "DATABASE_URL",
+    f"sqlite:///{_default_sqlite_path.as_posix()}",
+)

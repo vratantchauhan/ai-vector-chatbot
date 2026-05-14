@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@600;700&display=swap");
+
+.st-key-ragtitle {
+  text-align: center;
+  margin: 0.35rem 0 1.35rem 0;
+}
+
+.st-key-ragtitle h1 {
+  font-family: "Sora", ui-sans-serif, system-ui, sans-serif;
+  font-weight: 700;
+  font-size: clamp(1.85rem, 4.2vw, 2.85rem);
+  letter-spacing: -0.04em;
+  margin: 0;
+  line-height: 1.12;
+  color: #0f172a;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.6);
+}
